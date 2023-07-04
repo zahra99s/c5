@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(222.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+     
+}
+.menu-bar{
+    background-color: bisque;
+    text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover{
+   background-color: rgba(105, 124, 139,0.5); 
+   border-radius: 4px;
+
+}
+.menu-bar .glyphicon{
+    margin-right: 8px;
+}
+.sub-menu-1{
+  display: none;  
+} 
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:  rgba(105, 124, 139,0.5); 
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: aliceblue
+}
+.glyphicon-chevron-right{
+   float: right; 
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background:  rgba(105, 124, 139,0.5);
+}
+
+
+.SSS{
+    padding: 80px;
+    margin: 80px;
+    width: 40%;
+    height: 40%;
+}
+.SSS h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 700;
+
+}
+.SSS p{
+font-family: sans-serif;
+font-weight: 400;
+color: #fff;
+letter-spacing: 1px;
+align-items: center;
+text-transform: capitalize;
+}
+.form{
+    width: 300px;
+    height:500px;
+    background:rgba(127, 134, 139, 0.7);  
+    position:absolute;
+    top: 20%;
+    right: 10%;
+    left: 60%;
+    bottom: 40%;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .form h2{
+   width: 220px;
+   font-family: sans-serif;
+   text-align: center;
+   color: black;
+   font-size: 22px;
+   background:bisque;
+   border-radius: 10px;
+   margin: 2px;
+   padding: 8px;
+  }
+  .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent; 
+    border-bottom: 1px solid bisque;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black; 
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .form input:focus{
+      outline: none;
+  }
+  ::placeholder{
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;  
+  }
+  .btnn{
+      width: 240px;
+      height: 40px;
+      background:bisque;
+      border: none;
+      margin-top:30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #6d8eab;
+      transition:0.4s ease ;
+     
+  }
+  .btnn:hover{
+      background: #fff;
+      color:bisque;
+      text-decoration: none;
+     
+  }
+  .btnn a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+  .form .link{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      padding-top: 20px;
+      text-align: center;
+      color: #fff;
+  }
+  .form .link a{
+     text-decoration: none;
+     color:black; 
+  }
+  .liw{
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;  
+  }
+  .icons a{
+    color: #000;
+    padding: 15px;
+  }
+  
